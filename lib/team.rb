@@ -3,7 +3,8 @@ require_relative 'team'
 require_relative 'division'
 
 class Team
-  attr_reader :code, :team_name, :conference, :division, :captain, :teammate, :location
+  attr_reader :code, :team_name, :conference, :division, 
+              :captain, :teammate, :location, :divabbrev
   attr_accessor :wins, :losses, :draws, :total_score, :opp_score,
                 :hwins, :hloss, :awins, :aloss, 
                 :pwins, :ploss, :fwins, :floss, :double_forfeit,
@@ -18,6 +19,7 @@ class Team
     @captain = row[4]
     @teammate = row[5]
     @location = row[6]
+    @divabbrev = row[7]
     @wins = @losses = @draws = @double_forfeit = 0
     @total_score = @opp_score = 0
     @hwins = @hloss = @awins = @aloss = 0
