@@ -3,7 +3,7 @@
 App to track statistics for World Series of Spades Season 3, 2023-2024
 
 * Ruby version 2.7.4
-* Current through Week 01: November 09, 2023
+* Current through Week 03: November 30, 2023
 
 ### Stats only
 * Run: `ruby ./lib/runner.rb XY`
