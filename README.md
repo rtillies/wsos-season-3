@@ -11,7 +11,7 @@ App to track statistics for World Series of Spades Season 3, 2023-2024
 * Output: `outputDiv08CSV.csv` (matches week number)
 
 ### Search function
-* Run: `ruby ./lib/search.rb XY`
+* Run: `ruby ./lib/find.rb XY`
 * `XY` represents two-digit week number; e.g. `08`
 * Output: `outputDiv08CSV.csv` (matches week number)
 * Enter partial team name
